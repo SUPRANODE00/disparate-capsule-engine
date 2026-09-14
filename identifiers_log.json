@@ -1,0 +1,47 @@
+{
+  "system_environment": {
+    "user": "demiencapsulecraft",
+    "hostname": "penguin",
+    "working_directory": "/home/demiencapsulecraft/disparate-capsule-engine",
+    "user_id": 1000,
+    "cgroup": "/user.slice/user-1000.slice/user@1000.service/app.slice/capsule-broker.service",
+    "socket_path": "/tmp/capsule_broker.sock",
+    "systemd_unit_path": "/home/demiencapsulecraft/.config/systemd/user/capsule-broker.service",
+    "linger_file": "/var/lib/systemd/linger/demiencapsulecraft"
+  },
+  "process_and_service_identifiers": {
+    "systemd_unit": "capsule-broker.service",
+    "invocation_id": "91fcbf6cf2da45e7a39c4cc017716e9e",
+    "systemd_user_instance_pid": 373,
+    "main_pid": 12177,
+    "capsule_node_id": "CAPSULE-NODE-12177",
+    "model_id": "TELEPATH-MODEL-01",
+    "target_route": "BACK_OFFICE_REPRESENTATIVE"
+  },
+  "telemetry_runs": [
+    {
+      "run_index": 1,
+      "timestamp": "2026-09-14T23:27:00.804952+00:00",
+      "processed_at": "2026-09-14T23:27:00.805081+00:00",
+      "nonce": "10e41927-7b44-47af-8d14-d06c57f16ba7",
+      "hmac_signature": "4f2910b404c52f8c329834be7d98d90e2b2d0b2459d4b6e2801995961ccb26c0",
+      "input_hash": "6d0affaa8341284eb6a17a8125e9605377fb8aa2820cd2db0b15512dac55c3d2"
+    },
+    {
+      "run_index": 2,
+      "timestamp": "2026-09-14T23:27:04.376798+00:00",
+      "processed_at": "2026-09-14T23:27:04.376894+00:00",
+      "nonce": "4c2e1c24-bf46-4a3d-a5c9-75a112a8ad66",
+      "hmac_signature": "7f419e9cbf229b165253b7568447c712d76a52bfc93d08e8220fec45ddaaefe7",
+      "input_hash": "8ee964ab8481b2802ef17be58c5e96a00253e5f476a4b5f2f6ede89dfbe69cf0"
+    },
+    {
+      "run_index": 3,
+      "timestamp": "2026-09-14T23:27:08.051389+00:00",
+      "processed_at": "2026-09-14T23:27:08.051464+00:00",
+      "nonce": "1c57d951-0b84-4de3-8e23-d1bfd0c7b75d",
+      "hmac_signature": "0134388dc5147a1014fa3bcb0377faadfb3ed71966e9985ab36e23172dd19294",
+      "input_hash": "346988922d89d6e84e1dc1c3a7fc471b9b31ed0caba6dc5aa7c5dd6120bb19f4"
+    }
+  ]
+}
