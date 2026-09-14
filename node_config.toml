@@ -1,0 +1,21 @@
+[node_identity]
+resource_id = "RF-CAPSULE-NODE-01"
+gateway_endpoint = "https://erikivanrivera.blackcorp.me/api/v1/telemetry"
+dispatch_contact = "message.luciio@blackcorp.me"
+
+[spatial_geopose]
+position_enu_m = [6.0, 4.0, 2.0]
+voxel_occupancy = 0.17
+
+[rf_resource]
+mode = "RX_TX"
+frequency_hz = 2400000000
+bandwidth_hz = 1000000
+antenna_id = "ANT-01"
+rssi_dbm = -67
+snr_db = 18
+
+[environmental_metrics]
+magnetic_field_ut = 48.2
+vibration_rms = 0.013
+temperature_c = 24.1
