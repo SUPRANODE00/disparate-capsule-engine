@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "InitiateAllocationPayload",
+  "type": "object",
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "pattern": "^REG-\\d{4}-[A-Z]{2,4}-[a-f0-9]{8}$"
+    },
+    "timestamp_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "jurisdiction": {
+      "type": "string"
+    },
+    "administrative_status": {
+      "type": "string",
+      "enum": ["PENDING", "ACTIVE", "SUSPENDED", "DETACHED"]
+    },
+    "origin_affinity": {
+      "type": "string",
+      "default": "TST_ORIGIN"
+    }
+  },
+  "required": ["entity_id", "timestamp_utc", "jurisdiction", "administrative_status"]
+}

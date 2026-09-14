@@ -1,0 +1,14 @@
+{
+  "resource_id": "RF-NODE-TRIAGE-01",
+  "position_enu_m": [6.0, 4.0, 2.0],
+  "rf": {
+    "mode": "RX",
+    "frequency_hz": 2400000000,
+    "bandwidth_hz": 1000000,
+    "antenna_id": "ANT-TRIAGE",
+    "telemetry": {
+      "rssi_dbm": -67,
+      "snr_db": 18
+    }
+  }
+}
